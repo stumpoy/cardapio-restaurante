@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Homemade+Apple&display=swap');
+
+@font-face {
+    font-family: 'angel';
+    src: url(../fonts/Angelknives-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'gizin hands';
+    src: url(../fonts/CrayonHandRegular2016Demo.ttf);
+}
+
+
+body{
+    background-color: rgb(244, 250, 217);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin:0
+}
+
+/*topo*/
+.topo{
+    background-color: #754301;
+    padding: 25px;
+}
+
+.topo img{
+    width: 370px;
+    margin-top: 20px;
+    transition: 0.5s;
+
+}
+
+img:hover{
+    /*hover tem a função de aumentar e destacar o objeto que vc quer*/
+   transform: scale(1.25);
+   transition: 0.5s ;
+}
+
+
+/*SESSÕES*/
+.servicos, .pratos, .cardapio{
+    background-color: rgb(255, 249, 213);
+    width:60%;
+    margin: 40px auto;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 60px 20px 60px rgba(233, 211, 154, 0.315);
+    font-family: 'angel';
+  
+}
+
+
+.servicos:hover{ 
+      transition: 0.3s;
+      scale: 1.02;
+      box-shadow: 30px 20px 60px rgb(221, 198, 138);
+} 
+
+.pratos:hover{
+      transition: 0.3s;
+      scale: 1.02;
+      box-shadow: 30px 20px 60px rgb(221, 198, 138);
+}
+
+
+.cardapio:hover{
+    transition: 0.3s;
+    scale: 1.02;
+    box-shadow: 30px 20px 60px rgb(221, 198, 138);
+}
+
+h1, h2, h3{
+    color: rgb(158, 99, 3);
+    font-size: 35px;
+      font-family: "Homemade Apple", cursive;
+      font-weight: 1;
+      font-style: thin;
+
+}
+
+/*LISTAS*/
+ul{
+    text-align:center;
+    width:40%;
+    margin: auto;
+    font-size: 20px;
+    
+}
+
+li{
+    margin: 15px;
+}
+
+li:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+/*TABELA*/
+
+table{
+    width: 80%;
+    background-color: #ffbc6516;
+    margin: auto;
+    /*centraliza e deixa proporcional*/
+    border-collapse: collapse;
+    /*desenha uma borda ao redor da tabela para equilibra-lá, é a linha da coluna*/
+}
+
+th{
+    background-color: rgba(216, 130, 0, 0.237);
+    font-family: 'gizin hands';
+    /*cabeçalho da tabela*/
+}
+
+th, td{
+    border: 2px solid rgba(100, 52, 0, 0.788);
+    padding: 20px
+    /*pequena quase tudo*/
+}
+
+tr:hover{
+    background-color: rgba(255, 212, 148, 0.444);
+    transform: scale(1.05);
+    transition: 0.3s;
+    /*faz a animação de selecionado*/
+}
+
+footer{
+    background-color: #754301; /*muda o fundo*/
+    color: rgb(254, 201, 140); /*cor do texto apenas*/
+    padding: 15px; /*espaçamento entre uma linha e outra*/
+    margin-top: 30px;
+    font-family: 'gizin hands';
+}
+
+.info{
+  text-align: left;
+}
